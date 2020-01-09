@@ -7,8 +7,8 @@ function onClick(element) {
 }
 
 // Change style of navbar on scroll
-window.onscroll = function () { myFunction() };
-function myFunction() {
+window.onscroll = function () { scrolling() };
+function scrolling() {
     var navbar = document.getElementById("myNavbar");
     if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
         navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
