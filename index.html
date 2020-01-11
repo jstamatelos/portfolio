@@ -1,26 +1,227 @@
 <!DOCTYPE html>
 <html>
-<title>Coming Soon!</title>
+<title>Jarryd Stamatelos</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="./resources/styles/stylesheet.css">
 
 <body>
+    <script src="./resources/script/script.js"></script>
+    <!-- Navbar (sit on top) -->
+    <div class="w3-top">
+        <div class="w3-bar" id="myNavbar">
+            <!-- <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right"
+                href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+                <i class="fa fa-bars"></i>
+            </a> -->
+            <a href="#home" class="w3-bar-item w3-button">HOME</a>
+            <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
+            <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> PORTFOLIO</a>
+            <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
+        </div>
 
-    <div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
-        <div class="w3-display-topleft w3-padding-large w3-xlarge">
-            Jarryd Stamatelos
-        </div>
-        <div class="w3-display-middle">
-            <h1 class="w3-jumbo w3-animate-top">COMING SOON</h1>
-            <hr class="w3-border-grey" style="margin:auto;width:40%">
-        </div>
-        <div class="w3-display-bottomleft w3-padding-large">
-            Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a>
+        <!-- Navbar on small screens -->
+        <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+            <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
+            <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
+            <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
         </div>
     </div>
+
+    <!-- First Parallax Image with Logo Text -->
+    <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+        <div class="w3-display-middle"">
+            <span class=" w3-xxxlarge w3-text-black w3-wide">JARRYD STAMATELOS</span>
+        </div>
+    </div>
+
+    <!-- Container (About Section) -->
+    <div class="w3-content w3-container w3-padding-64" id="about">
+        <h3 class="w3-center">ABOUT ME</h3>
+        <p class="w3-center">Hey! I'm Jarryd Stamatelos, a software developer with a passion for designing and creating
+            websites and software. I focus on creating responsive sites that look great on any
+            device, load quickly, and are user friendly. If you are interested in working together, check out some of my
+            previous works
+            and find my contact information below!</p>
+        <div class="w3-row">
+            <div class="w3-col m6 w3-center w3-padding-large">
+                <img src="./resources/images/wake-up.jpeg" class="w3-round w3-image" alt="Photo of Me" width="500"
+                    height="333">
+            </div>
+            <h3 class="w3-center"><em>I love making things that make a difference</em></h3>
+            
+            <p class="w3-center">Website design and consultation, let me help you bring you website into 2020!
+                I will work with you to develop a design that is appealing to your target market, search engine optimized, and works within your budget!
+            </p>
+        </div>
+    </div>
+
+    <!-- Skill Section Start -->
+    <!-- <div class="w3-content w3-container w3-padding-8">
+        <h3 class="w3-center">Technologies</h3>
+    </div>
+    <div class="w3-row w3-center w3-grey w3-padding-8">
+        <div class="w3-quarter w3-section">
+            <img src="./resources/images/logos/java-logo.jpeg" style="width:33%" alt="Java">
+        </div>
+        <div class="w3-quarter w3-section">
+            <img src="./resources/images/logos/javascript-logo.jpeg" style="width:33%" alt="Javascript">
+        </div>
+        <div class="w3-quarter w3-section">
+            <img src="./resources/images/logos/node-js-logo.jpeg" style="width:33%" alt="Node.js">
+        </div>
+        <div class="w3-quarter w3-section">
+            <img src="./resources/images/logos/html-logo.jpeg" style="width:33%" alt="HTML">
+        </div>
+    </div>
+    <div class="w3-row w3-center w3-grey w3-padding-8">
+        <div class="w3-quarter w3-section">
+            <img src="./resources/images/logos/aws-logo.jpeg" style="width:33%" alt="aws">
+        </div>
+        <div class="w3-quarter w3-section">
+            <img src="./resources/images/logos/git-logo.jpeg" style="width:33%" alt="git">
+        </div>
+        <div class="w3-quarter w3-section">
+            <img src="./resources/images/logos/github-logo.jpeg" style="width:33%" alt="github">
+        </div>
+        <div class="w3-quarter w3-section">
+            <img src="./resources/images/logos/spring-boot-logo.jpg" style="width:33%" alt="spring boot">
+        </div>
+    </div>
+    <div class="w3-content w3-container w3-padding-16">
+        <h3 class="w3-center"></h3>
+    </div> -->
+    <!-- Skill Section End -->
+
+    <!-- Second Parallax Image with Portfolio Text -->
+    <div class="bgimg-2 w3-display-container w3-opacity-min">
+        <div class="w3-display-top">
+            <span class="w3-xxxlarge w3-text-white w3-wide">PORTFOLIO</span>
+        </div>
+    </div>
+
+    <!-- Container (Portfolio Section) -->
+    <div class="w3-content w3-container w3-padding-64" id="portfolio">
+        <h3 class="w3-center">Check out some of my latest creations!</h3><br>
+        <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+        <div class="w3-row-padding w3-center">
+            <div class="w3-col m3">
+                <a href="https://github.com/jstamatelos" target="_blank">
+                    <img src="./resources/images/logos/github-logo.jpeg" style="width:100%" class="w3-hover-opacity"
+                        alt="Github">
+                </a>
+            </div>
+
+            <div class="w3-col m3">
+                <a href="https://jstamatelos.github.io/wasatchlc/" target="_blank">
+                    <img src="./resources/images/logos/wasatch-black-yellow.jpeg" style="width:100%"
+                        class="w3-hover-opacity" alt="Wasatch LC">
+                </a>
+            </div>
+
+            <div class="w3-col m3">
+                <a href="https://crocktusoctagon.github.io/" target="_blank">
+                    <img src="./resources/images/logos/crocktus-logo.jpeg" style="width:100%" class="w3-hover-opacity"
+                        alt="Crocktus Octogon">
+                </a>
+            </div>
+
+            <div class="w3-col m3">
+                <a href="http://therecoverycallmovie.com/" target="_blank">
+                    <img src="./resources/images/logos/bell-logo.jpeg" style="width:100%" class="w3-hover-opacity"
+                        alt="Recovery Call">
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- Third Parallax Image with Portfolio Text -->
+    <div class="bgimg-3 w3-display-container w3-opacity-min">
+        <div class="w3-display-top">
+            <span class="w3-xxxlarge w3-text-black w3-wide">CONTACT</span>
+        </div>
+    </div>
+
+    <!-- Container (Contact Section) -->
+    <div class="w3-content w3-container w3-padding-64" id="contact">
+        <h3 class="w3-center">I'd love to hear from you!</h3>
+        <h4 class="w3-center"><em>Reach out on LinkedIn or via email and lets make something great together</em></h4>
+        <div class="w3-row w3-padding-32 w3-section">
+            <div class="w3-col m4 w3-container">
+                <img src="./resources/images/backgrounds/mac-keyboard.jpeg" class="w3-image w3-round"
+                    style="width:100%">
+            </div>
+            <div class="w3-col m8 w3-panel">
+                <div class="w3-large w3-margin-bottom">
+                    <a href="mailto:swdeveloper@jarrydstamatelos.com">
+                        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i>
+                        swdeveloper@jarrydstamatelos.com</a>
+                    <br>
+                    <a href="https://www.linkedin.com/in/jarrydstamatelos/" target="_blank">
+                        <i class="fa fa-linkedin fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i>
+                        LinkedIn</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+        <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+        <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank"
+                class="w3-hover-text-green">w3.css</a>, will power, and coffee<br>Hosted on Github Pages</p>
+        <p>Image Credits:<a
+                style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, "
+                ;San Francisco";, ";Helvetica Neue" ;, Helvetica, Ubuntu, Roboto, Noto, ";Segoe UI" ;, Arial,
+                sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px"
+                href="https://unsplash.com/@justinveenema?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge"
+                target="_blank" rel="noopener noreferrer"
+                title="Download free do whatever you want high-resolution photos from Justin Veenema"><span
+                    style="display:inline-block;padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg"
+                        style="height:12px;width:auto;position:relative;vertical-align:middle;top:-2px;fill:white"
+                        viewBox="0 0 32 32">
+                        <title>unsplash-logo</title>
+                        <path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"></path>
+                    </svg></span><span style="display:inline-block;padding:2px 3px">Justin Veenema</span></a><a
+                style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, "
+                ;San Francisco";, ";Helvetica Neue" ;, Helvetica, Ubuntu, Roboto, Noto, ";Segoe UI" ;, Arial,
+                sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px"
+                href="https://unsplash.com/@jesuskiteque?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge"
+                target="_blank" rel="noopener noreferrer"
+                title="Download free do whatever you want high-resolution photos from Jesus Kiteque"><span
+                    style="display:inline-block;padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg"
+                        style="height:12px;width:auto;position:relative;vertical-align:middle;top:-2px;fill:white"
+                        viewBox="0 0 32 32">
+                        <title>unsplash-logo</title>
+                        <path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"></path>
+                    </svg></span><span style="display:inline-block;padding:2px 3px">Jesus Kiteque</span></a><a
+                style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, "
+                ;San Francisco";, ";Helvetica Neue" ;, Helvetica, Ubuntu, Roboto, Noto, ";Segoe UI" ;, Arial,
+                sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px"
+                href="https://unsplash.com/@hugobarbosa?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge"
+                target="_blank" rel="noopener noreferrer"
+                title="Download free do whatever you want high-resolution photos from Hugo  Barbosa"><span
+                    style="display:inline-block;padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg"
+                        style="height:12px;width:auto;position:relative;vertical-align:middle;top:-2px;fill:white"
+                        viewBox="0 0 32 32">
+                        <title>unsplash-logo</title>
+                        <path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"></path>
+                    </svg></span><span style="display:inline-block;padding:2px 3px">Hugo Barbosa</span></a>
+            <a style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, "
+                ;San Francisco";, ";Helvetica Neue" ;, Helvetica, Ubuntu, Roboto, Noto, ";Segoe UI" ;, Arial,
+                sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px"
+                href="https://unsplash.com/@emilep?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge"
+                target="_blank" rel="noopener noreferrer"
+                title="Download free do whatever you want high-resolution photos from Émile Perron"><span
+                    style="display:inline-block;padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg"
+                        style="height:12px;width:auto;position:relative;vertical-align:middle;top:-2px;fill:white"
+                        viewBox="0 0 32 32">
+                        <title>unsplash-logo</title>
+                        <path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"></path>
+                    </svg></span><span style="display:inline-block;padding:2px 3px">Émile Perron</span></a>
+    </footer>
 
 </body>
 
